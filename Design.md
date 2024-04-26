@@ -1,5 +1,3 @@
-![Logo of the project](logo.jpg)
-
 # LEGO Hub Toolkit API Design
 
 This document serves as an overview of the toolkit API, describing the key classes used to build an application that communicates with the robot.   This description will remain at a high level.  See the docs in each python class for detailed API.
