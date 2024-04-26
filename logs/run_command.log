@@ -1,0 +1,40 @@
+2024-04-26 13:56:28,554 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 13:56:28,561 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 13:56:28,561 INFO App waiting for hub to connect
+2024-04-26 13:56:28,571 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 13:56:28,571 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 13:56:28,692 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 13:56:28,699 INFO comm.HubClient CONNECTING: [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 987], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,700 DEBUG comm.SerialConnection RECV:  [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 987], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,707 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 13:56:28,707 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 22, 985], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,707 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 23, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,707 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.334, 60, true]}
+2024-04-26 13:56:28,708 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [7, 23, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,708 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [8, 20, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,708 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 22, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,710 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 22, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,758 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 22, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,762 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "fsj2"}
+2024-04-26 13:56:28,838 DEBUG comm.SerialConnection RECV: {"i":"fsj2","r":{"storage": {"available": 30888, "total": 31744, "pct": 3.69657, "unit": "kb", "free": 30888}, "slots": {}}}
+2024-04-26 14:13:17,499 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:13:17,507 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:13:34,369 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:13:34,372 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:13:34,373 INFO App waiting for hub to connect
+2024-04-26 14:13:34,383 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:13:34,383 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:13:34,384 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:13:34,392 INFO comm.HubClient CONNECTING: , 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 984], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,393 DEBUG comm.SerialConnection RECV: , 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 984], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,415 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:13:34,415 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 986], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,415 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 22, 985], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,416 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 984], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,416 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 22, 986], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,416 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 20, 985], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,418 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 984], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,465 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 21, 986], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,513 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 984], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,561 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 986], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,574 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "QweN"}
