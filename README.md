@@ -85,10 +85,10 @@ The python3 script `run_command.py` can
 
 Usage:
 ```shell
-python3 run_program.py ls
-python3 run_program.py cp myprogram.py 4
-python3 run_program.py start 4
-python3 run_program.py stop
+python3 run_command.py ls
+python3 run_command.py cp myprogram.py 4
+python3 run_command.py start 4
+python3 run_command.py stop
 ```
 
 #### Runing code on the hub - GUI
@@ -112,6 +112,21 @@ See the [API Design documentation](design.md).
 
 
 After all packages are confirmed installed you may need to add `export PATH="$HOME/bin:$PATH"`
+ 
+## How To Run Functional Code on the Hub
+
+- Having the firmware installed through PyBricks Code (Pybricks Code -> Follow Instructions)
+   - Make sure udev is correctly configured for Web Bluetooth & USB Access
+   - Web Bluetooth has to be enabled (only works on Chrome & Edge)
+   - Pair the device one time with Bluetooth on PyBricks Code
+
+- Have pybricksdev installed
+- Have Bluetooth on
+- Use the structure in "hub_light" or "pybricksdev_test" to write code
+- Use the command "pybricksdev run ble nameofprogram.py" ===> PyBricksDev has to be installed
+
+- Execute Program : BLE
+- Electricity : USB
 
 ## Remaining errors
 

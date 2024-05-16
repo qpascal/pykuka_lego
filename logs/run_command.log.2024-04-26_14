@@ -1,0 +1,875 @@
+2024-04-26 13:56:28,554 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 13:56:28,561 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 13:56:28,561 INFO App waiting for hub to connect
+2024-04-26 13:56:28,571 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 13:56:28,571 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 13:56:28,692 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 13:56:28,699 INFO comm.HubClient CONNECTING: [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 987], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,700 DEBUG comm.SerialConnection RECV:  [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 987], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,707 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 13:56:28,707 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 22, 985], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,707 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 23, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,707 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.334, 60, true]}
+2024-04-26 13:56:28,708 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [7, 23, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,708 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [8, 20, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,708 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 22, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,710 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 22, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,758 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 22, 986], [0, 0, 0], [-82, 1, 0], "", 0]}
+2024-04-26 13:56:28,762 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "fsj2"}
+2024-04-26 13:56:28,838 DEBUG comm.SerialConnection RECV: {"i":"fsj2","r":{"storage": {"available": 30888, "total": 31744, "pct": 3.69657, "unit": "kb", "free": 30888}, "slots": {}}}
+2024-04-26 14:13:17,499 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:13:17,507 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:13:34,369 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:13:34,372 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:13:34,373 INFO App waiting for hub to connect
+2024-04-26 14:13:34,383 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:13:34,383 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:13:34,384 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:13:34,392 INFO comm.HubClient CONNECTING: , 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 984], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,393 DEBUG comm.SerialConnection RECV: , 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 984], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,415 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:13:34,415 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 986], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,415 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 22, 985], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,416 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 984], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,416 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 22, 986], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,416 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 20, 985], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,418 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 984], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,465 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 21, 986], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,513 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 984], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,561 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 21, 986], [0, 0, 0], [-89, 1, 0], "", 0]}
+2024-04-26 14:13:34,574 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "QweN"}
+2024-04-26 14:25:52,753 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:25:52,756 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:25:52,757 INFO App Uploading file: pybricksdev_test.py
+2024-04-26 14:25:52,757 INFO App waiting for hub to connect
+2024-04-26 14:25:52,767 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:25:52,767 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:25:52,770 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:25:52,776 INFO comm.HubClient CONNECTING: [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 985], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:25:52,776 DEBUG comm.SerialConnection RECV: [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 985], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:25:52,777 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:25:52,777 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 984], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:52,782 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:52,782 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:25:52,782 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:52,783 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:25:52,785 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 17, 983], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:25:52,833 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:52,881 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 984], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:25:52,929 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:52,958 DEBUG comm.SerialConnection SEND: {"m": "start_write_program", "p": {"slotid": 0, "size": 339, "meta": {"created": 1714134352757, "modified": 1714134352757, "name": "cHlicmlja3NkZXZfdGVzdC5weQ==", "type": "python", "project_id": "nw621dES0Vkw"}, "filename": "__init__.py"}, "i": "LqSY"}
+2024-04-26 14:25:53,230 DEBUG comm.SerialConnection SEND: {"m": "write_package", "p": {"data": "ZnJvbSBweWJyaWNrcy5odWJzIGltcG9ydCBQcmltZUh1Ygpmcm9tIHB5YnJpY2tzLnBhcmFtZXRlcnMgaW1wb3J0IENvbG9yCmZyb20gcHlicmlja3MudG9vbHMgaW1wb3J0IHdhaXQKCiMgSW5pdGlhbGl6ZSB0aGUgaHViCmh1YiA9IFByaW1lSHViKCkKCiMgS2VlcCBibGlua2luZyByZWQgb24gYW5kIG9mZi4KaHViLmxpZ2h0LmJsaW5rKENvbG9yLlJFRCwgWzUwMCwgNTAwXSkKCndhaXQoMTAwMDApCgojIEtlZXAgYmxpbmtpbmcgZ3JlZW4gc2xvd2x5IGFuZCB0aGVuIHF1aWNrbHkuCmh1Yi5saWdodC5ibGluayhDb2xvci5HUkVFTiwgWzUwMCwgNTAwLCA1MCwgOTAwXSkKCndhaXQoMTAwMDAp", "transferid": "24976"}, "i": "kGna"}
+2024-04-26 14:25:59,423 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:25:59,427 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:25:59,427 INFO App waiting for hub to connect
+2024-04-26 14:25:59,438 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:25:59,438 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:25:59,439 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:25:59,446 INFO comm.HubClient CONNECTING: [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 17, 984], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:59,446 DEBUG comm.SerialConnection RECV: [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 17, 984], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:59,446 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:25:59,447 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 17, 984], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:25:59,454 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:59,454 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:59,455 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 984], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:25:59,455 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:59,457 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 983], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:25:59,505 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:59,553 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 18, 982], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:25:59,601 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:25:59,628 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "WNwv"}
+2024-04-26 14:26:15,114 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:26:15,118 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:26:15,118 INFO App waiting for hub to connect
+2024-04-26 14:26:15,127 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:26:15,128 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:26:15,129 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:26:15,136 INFO comm.HubClient CONNECTING: , [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 16, 983], [0, 0, 0], [-144, 1, 0], "", 0]}
+2024-04-26 14:26:15,136 DEBUG comm.SerialConnection RECV: , [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 16, 983], [0, 0, 0], [-144, 1, 0], "", 0]}
+2024-04-26 14:26:15,136 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:26:15,137 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 983], [0, 0, 0], [-144, 0, 0], "", 0]}
+2024-04-26 14:26:15,151 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 985], [0, 0, 0], [-143, 0, 0], "", 0]}
+2024-04-26 14:26:15,152 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [-144, 0, 0], "", 0]}
+2024-04-26 14:26:15,152 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 984], [0, 0, 0], [-144, 0, 0], "", 0]}
+2024-04-26 14:26:15,152 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 14, 983], [0, 0, 0], [-144, 0, 0], "", 0]}
+2024-04-26 14:26:15,154 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [-144, 0, 0], "", 0]}
+2024-04-26 14:26:15,202 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:26:15,250 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [-143, 1, 0], "", 0]}
+2024-04-26 14:26:15,298 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [-144, 1, 0], "", 0]}
+2024-04-26 14:26:15,319 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "Yp6b"}
+2024-04-26 14:26:15,419 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 0}, "i": "W0zs"}
+2024-04-26 14:26:15,442 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:26:31,451 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:26:31,455 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:26:31,456 INFO App waiting for hub to connect
+2024-04-26 14:26:31,466 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:26:31,466 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:26:31,468 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:26:31,475 INFO comm.HubClient CONNECTING: , 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 985], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:31,475 DEBUG comm.SerialConnection RECV: , 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 985], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:31,476 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:26:31,476 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 985], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:31,500 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:31,501 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 983], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:31,501 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:26:31,501 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:31,501 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.349, 60, true]}
+2024-04-26 14:26:31,503 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 983], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:26:31,550 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 982], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:26:31,598 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:31,657 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "8nq3"}
+2024-04-26 14:26:31,768 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 0}, "i": "fQJ2"}
+2024-04-26 14:26:31,799 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:26:55,994 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:26:55,999 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:26:55,999 INFO App Uploading file: pybricksdev_test.py
+2024-04-26 14:26:56,000 INFO App waiting for hub to connect
+2024-04-26 14:26:56,010 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:26:56,010 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:26:56,012 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:26:56,019 INFO comm.HubClient CONNECTING: [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:56,019 DEBUG comm.SerialConnection RECV:  [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:56,019 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:26:56,020 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:56,031 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:26:56,031 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 985], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:56,031 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 983], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:56,031 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 18, 984], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:26:56,034 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:56,081 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 18, 983], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:26:56,129 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:56,178 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 985], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:26:56,200 DEBUG comm.SerialConnection SEND: {"m": "start_write_program", "p": {"slotid": 0, "size": 340, "meta": {"created": 1714134416000, "modified": 1714134416000, "name": "cHlicmlja3NkZXZfdGVzdC5weQ==", "type": "python", "project_id": "ugcZdloaLuJh"}, "filename": "__init__.py"}, "i": "6AJ2"}
+2024-04-26 14:26:56,470 DEBUG comm.SerialConnection SEND: {"m": "write_package", "p": {"data": "ZnJvbSBweWJyaWNrcy5odWJzIGltcG9ydCBQcmltZUh1Ygpmcm9tIHB5YnJpY2tzLnBhcmFtZXRlcnMgaW1wb3J0IENvbG9yCmZyb20gcHlicmlja3MudG9vbHMgaW1wb3J0IHdhaXQKCiMgSW5pdGlhbGl6ZSB0aGUgaHViCmh1YiA9IFByaW1lSHViKCkKCiMgS2VlcCBibGlua2luZyByZWQgb24gYW5kIG9mZi4KaHViLmxpZ2h0LmJsaW5rKENvbG9yLkJMVUUsIFs1MDAsIDUwMF0pCgp3YWl0KDEwMDAwKQoKIyBLZWVwIGJsaW5raW5nIGdyZWVuIHNsb3dseSBhbmQgdGhlbiBxdWlja2x5LgpodWIubGlnaHQuYmxpbmsoQ29sb3IuR1JFRU4sIFs1MDAsIDUwMCwgNTAsIDkwMF0pCgp3YWl0KDEwMDAwKQ==", "transferid": "45468"}, "i": "sjP5"}
+2024-04-26 14:27:00,658 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:27:00,662 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:27:00,662 INFO App waiting for hub to connect
+2024-04-26 14:27:00,673 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:27:00,673 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:27:00,674 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:27:00,682 INFO comm.HubClient CONNECTING: , 1, 0]], [46, [0, 0, -2, 0]], [11, 16, 986], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:00,682 DEBUG comm.SerialConnection RECV: , 1, 0]], [46, [0, 0, -2, 0]], [11, 16, 986], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:00,703 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:27:00,703 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 16, 983], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:00,704 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.351, 60, true]}
+2024-04-26 14:27:00,704 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:00,704 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 14, 985], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:00,704 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 983], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:27:00,704 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 984], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:27:00,706 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:00,754 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:00,802 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:00,863 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "JdTU"}
+2024-04-26 14:27:00,964 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 0}, "i": "mcBm"}
+2024-04-26 14:27:00,986 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:27:18,403 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:27:18,407 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:27:18,407 INFO App Uploading file: pybricksdev_test.py
+2024-04-26 14:27:18,408 INFO App waiting for hub to connect
+2024-04-26 14:27:18,417 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:27:18,417 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:27:18,418 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:27:18,426 INFO comm.HubClient CONNECTING: , [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 985], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:18,426 DEBUG comm.SerialConnection RECV: , [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 985], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:18,427 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:27:18,427 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 14, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:18,460 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 984], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:27:18,460 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 982], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:18,460 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 984], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:18,460 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:27:18,463 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:27:18,511 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 14, 983], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:18,512 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.349, 60, true]}
+2024-04-26 14:27:18,559 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:18,608 DEBUG comm.SerialConnection SEND: {"m": "start_write_program", "p": {"slotid": 1, "size": 340, "meta": {"created": 1714134438408, "modified": 1714134438408, "name": "cHlicmlja3NkZXZfdGVzdC5weQ==", "type": "python", "project_id": "vFCAXuTbGi7e"}, "filename": "__init__.py"}, "i": "Wb6P"}
+2024-04-26 14:27:18,889 DEBUG comm.SerialConnection SEND: {"m": "write_package", "p": {"data": "ZnJvbSBweWJyaWNrcy5odWJzIGltcG9ydCBQcmltZUh1Ygpmcm9tIHB5YnJpY2tzLnBhcmFtZXRlcnMgaW1wb3J0IENvbG9yCmZyb20gcHlicmlja3MudG9vbHMgaW1wb3J0IHdhaXQKCiMgSW5pdGlhbGl6ZSB0aGUgaHViCmh1YiA9IFByaW1lSHViKCkKCiMgS2VlcCBibGlua2luZyByZWQgb24gYW5kIG9mZi4KaHViLmxpZ2h0LmJsaW5rKENvbG9yLkJMVUUsIFs1MDAsIDUwMF0pCgp3YWl0KDEwMDAwKQoKIyBLZWVwIGJsaW5raW5nIGdyZWVuIHNsb3dseSBhbmQgdGhlbiBxdWlja2x5LgpodWIubGlnaHQuYmxpbmsoQ29sb3IuR1JFRU4sIFs1MDAsIDUwMCwgNTAsIDkwMF0pCgp3YWl0KDEwMDAwKQ==", "transferid": "53742"}, "i": "nFW6"}
+2024-04-26 14:27:22,790 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:27:22,793 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:27:22,794 INFO App waiting for hub to connect
+2024-04-26 14:27:22,804 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:27:22,804 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:27:22,806 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:27:22,812 INFO comm.HubClient CONNECTING: 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 983], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:27:22,813 DEBUG comm.SerialConnection RECV:  0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 983], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:27:22,813 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:27:22,814 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:27:22,844 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -4, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 982], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:22,845 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.349, 60, true]}
+2024-04-26 14:27:22,845 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 16, 985], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:22,845 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 984], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:27:22,845 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 985], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:22,847 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [11, 15, 982], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:22,895 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 983], [0, 0, 0], [-147, 0, 0], "", 0]}
+2024-04-26 14:27:22,943 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 0, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 0, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 984], [0, 0, 0], [-147, 1, 0], "", 0]}
+2024-04-26 14:27:22,994 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "jXKE"}
+2024-04-26 14:27:23,124 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 1}, "i": "3hXm"}
+2024-04-26 14:27:23,146 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:37:01,464 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:37:01,466 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:37:01,466 INFO App waiting for hub to connect
+2024-04-26 14:37:01,471 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:37:01,471 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:37:01,472 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:37:01,499 INFO comm.SerialConnection end monitoring loop
+2024-04-26 14:37:01,666 INFO App waiting for hub to connect
+2024-04-26 14:37:01,867 INFO App waiting for hub to connect
+2024-04-26 14:37:02,068 INFO App waiting for hub to connect
+2024-04-26 14:37:02,269 INFO App waiting for hub to connect
+2024-04-26 14:37:02,470 INFO App waiting for hub to connect
+2024-04-26 14:37:02,671 INFO App waiting for hub to connect
+2024-04-26 14:37:02,871 INFO App waiting for hub to connect
+2024-04-26 14:37:03,072 INFO App waiting for hub to connect
+2024-04-26 14:37:03,273 INFO App waiting for hub to connect
+2024-04-26 14:37:03,473 INFO App waiting for hub to connect
+2024-04-26 14:37:03,674 INFO App waiting for hub to connect
+2024-04-26 14:37:03,875 INFO App waiting for hub to connect
+2024-04-26 14:37:04,075 INFO App waiting for hub to connect
+2024-04-26 14:37:04,276 INFO App waiting for hub to connect
+2024-04-26 14:37:04,477 INFO App waiting for hub to connect
+2024-04-26 14:37:04,677 INFO App waiting for hub to connect
+2024-04-26 14:37:04,878 INFO App waiting for hub to connect
+2024-04-26 14:37:05,079 INFO App waiting for hub to connect
+2024-04-26 14:37:05,279 INFO App waiting for hub to connect
+2024-04-26 14:37:05,480 INFO App waiting for hub to connect
+2024-04-26 14:37:05,680 INFO App waiting for hub to connect
+2024-04-26 14:37:05,881 INFO App waiting for hub to connect
+2024-04-26 14:37:06,081 INFO App waiting for hub to connect
+2024-04-26 14:37:06,282 INFO App waiting for hub to connect
+2024-04-26 14:37:06,483 INFO App waiting for hub to connect
+2024-04-26 14:37:06,683 INFO App waiting for hub to connect
+2024-04-26 14:37:06,884 INFO App waiting for hub to connect
+2024-04-26 14:37:07,084 INFO App waiting for hub to connect
+2024-04-26 14:37:07,285 INFO App waiting for hub to connect
+2024-04-26 14:37:07,486 INFO App waiting for hub to connect
+2024-04-26 14:37:07,687 INFO App waiting for hub to connect
+2024-04-26 14:37:07,887 INFO App waiting for hub to connect
+2024-04-26 14:37:08,088 INFO App waiting for hub to connect
+2024-04-26 14:37:08,288 INFO App waiting for hub to connect
+2024-04-26 14:37:08,488 INFO App waiting for hub to connect
+2024-04-26 14:37:08,689 INFO App waiting for hub to connect
+2024-04-26 14:37:08,890 INFO App waiting for hub to connect
+2024-04-26 14:37:09,091 INFO App waiting for hub to connect
+2024-04-26 14:37:09,291 INFO App waiting for hub to connect
+2024-04-26 14:37:09,492 INFO App waiting for hub to connect
+2024-04-26 14:37:09,692 INFO App waiting for hub to connect
+2024-04-26 14:37:09,893 INFO App waiting for hub to connect
+2024-04-26 14:37:10,093 INFO App waiting for hub to connect
+2024-04-26 14:37:10,294 INFO App waiting for hub to connect
+2024-04-26 14:37:10,495 INFO App waiting for hub to connect
+2024-04-26 14:37:10,696 INFO App waiting for hub to connect
+2024-04-26 14:37:10,896 INFO App waiting for hub to connect
+2024-04-26 14:37:11,097 INFO App waiting for hub to connect
+2024-04-26 14:37:11,298 INFO App waiting for hub to connect
+2024-04-26 14:37:11,498 INFO App waiting for hub to connect
+2024-04-26 14:37:11,699 INFO App waiting for hub to connect
+2024-04-26 14:37:11,900 INFO App waiting for hub to connect
+2024-04-26 14:38:41,762 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:38:41,764 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:38:41,764 INFO App waiting for hub to connect
+2024-04-26 14:38:41,771 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:38:41,771 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:38:41,772 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:38:41,776 INFO comm.HubClient CONNECTING: , -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:38:41,776 DEBUG comm.SerialConnection RECV: , -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:38:41,776 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:38:41,776 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:38:41,776 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:38:41,777 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:38:41,777 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:38:41,778 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 18, 980], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:38:41,779 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:38:41,826 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 982], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:38:41,874 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:38:41,922 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:38:41,965 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "vsS7"}
+2024-04-26 14:38:42,089 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 1}, "i": "1jvu"}
+2024-04-26 14:38:42,112 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:39:29,328 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:39:29,331 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:39:29,331 INFO App waiting for hub to connect
+2024-04-26 14:39:29,336 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:39:29,336 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:39:29,338 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:39:29,345 INFO comm.HubClient CONNECTING: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:39:29,345 DEBUG comm.SerialConnection RECV:  0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:39:29,345 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:39:29,345 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 982], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:39:29,346 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:39:29,367 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:39:29,367 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:39:29,367 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [6, 17, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:39:29,370 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:39:29,418 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:39:29,466 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:39:29,514 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:39:29,531 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "VUsS"}
+2024-04-26 14:39:29,660 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 0}, "i": "bWGN"}
+2024-04-26 14:39:29,682 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:40:27,634 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:40:27,637 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:40:33,541 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:40:33,543 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:40:33,544 INFO App waiting for hub to connect
+2024-04-26 14:40:33,551 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:40:33,551 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:40:33,553 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:40:33,559 INFO comm.HubClient CONNECTING: -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:33,559 DEBUG comm.SerialConnection RECV: -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:33,560 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:40:33,560 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:33,560 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:33,560 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:33,593 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:33,594 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:33,596 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 985], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:33,644 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:33,692 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:33,740 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:33,744 DEBUG comm.SerialConnection SEND: {"m": "remove_project", "p": {"slotid": 1}, "i": "fGQO"}
+2024-04-26 14:40:36,440 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:40:36,443 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:40:36,443 INFO App waiting for hub to connect
+2024-04-26 14:40:36,448 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:40:36,449 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:40:36,449 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:40:36,456 INFO comm.HubClient CONNECTING: , [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:36,457 DEBUG comm.SerialConnection RECV: , [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:36,457 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:40:36,457 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.358, 60, true]}
+2024-04-26 14:40:36,473 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 18, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:36,473 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:36,474 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:36,474 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:36,474 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:36,476 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:36,524 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:36,572 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:36,643 DEBUG comm.SerialConnection SEND: {"m": "remove_project", "p": {"slotid": 0}, "i": "n9b4"}
+2024-04-26 14:40:59,438 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:40:59,440 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:40:59,440 INFO App Uploading file: pybricksdev_test.py
+2024-04-26 14:40:59,441 INFO App waiting for hub to connect
+2024-04-26 14:40:59,446 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:40:59,446 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:40:59,447 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:40:59,451 INFO comm.HubClient CONNECTING: , [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:59,451 DEBUG comm.SerialConnection RECV: , [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:59,451 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:40:59,452 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:59,452 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:59,452 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:59,453 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:59,498 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.361, 60, true]}
+2024-04-26 14:40:59,499 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 18, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:59,499 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:40:59,501 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 14, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:59,549 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:40:59,642 DEBUG comm.SerialConnection SEND: {"m": "start_write_program", "p": {"slotid": 0, "size": 216, "meta": {"created": 1714135259441, "modified": 1714135259441, "name": "cHlicmlja3NkZXZfdGVzdC5weQ==", "type": "python", "project_id": "lqX_IvxGqECs"}, "filename": "__init__.py"}, "i": "Y3D7"}
+2024-04-26 14:40:59,883 DEBUG comm.SerialConnection SEND: {"m": "write_package", "p": {"data": "ZnJvbSBweWJyaWNrcy5odWJzIGltcG9ydCBQcmltZUh1Ygpmcm9tIHB5YnJpY2tzLnBhcmFtZXRlcnMgaW1wb3J0IENvbG9yCmZyb20gcHlicmlja3MudG9vbHMgaW1wb3J0IHdhaXQKCiMgSW5pdGlhbGl6ZSB0aGUgaHViCmh1YiA9IFByaW1lSHViKCkKCiMgS2VlcCBibGlua2luZyByZWQgb24gYW5kIG9mZi4KaHViLmxpZ2h0LmJsaW5rKENvbG9yLkJMVUUsIFs1MDAsIDUwMF0p", "transferid": "5011"}, "i": "J8D2"}
+2024-04-26 14:41:11,265 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:41:11,267 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:41:11,267 INFO App waiting for hub to connect
+2024-04-26 14:41:11,273 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:41:11,273 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:41:11,274 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:41:11,275 INFO comm.HubClient CONNECTING: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 985], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:11,275 DEBUG comm.SerialConnection RECV: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 985], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:11,275 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:41:11,276 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.356, 60, true]}
+2024-04-26 14:41:11,277 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:11,277 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:11,277 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:11,277 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:11,277 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 981], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:11,323 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 981], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:41:11,325 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 982], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:41:11,374 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:11,468 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "bKWl"}
+2024-04-26 14:41:11,567 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 0}, "i": "Ldbf"}
+2024-04-26 14:41:11,589 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:41:17,574 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:41:17,576 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:41:17,576 INFO App waiting for hub to connect
+2024-04-26 14:41:17,583 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:41:17,583 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:41:17,585 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:41:17,591 INFO comm.HubClient CONNECTING: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:17,592 DEBUG comm.SerialConnection RECV: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:17,592 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:41:17,592 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:17,629 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:17,630 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:41:17,630 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.356, 60, true]}
+2024-04-26 14:41:17,630 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:41:17,630 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:41:17,632 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:17,680 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:17,728 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:41:17,778 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "qjrk"}
+2024-04-26 14:41:17,880 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 0}, "i": "2ss9"}
+2024-04-26 14:41:17,900 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:41:39,605 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:41:39,607 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:41:39,608 INFO App waiting for hub to connect
+2024-04-26 14:41:39,614 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:41:39,614 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:41:39,617 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:41:39,623 INFO comm.HubClient CONNECTING: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:39,623 DEBUG comm.SerialConnection RECV: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:39,623 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:41:39,623 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.358, 60, true]}
+2024-04-26 14:41:39,623 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:39,623 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:39,623 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:39,623 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:39,624 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:39,634 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:39,682 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:39,730 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:41:39,809 DEBUG comm.SerialConnection SEND: {"m": "remove_project", "p": {"slotid": 0}, "i": "e0rl"}
+2024-04-26 14:42:17,817 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:42:17,819 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:42:17,819 INFO App Uploading file: pybricksdev_test.py
+2024-04-26 14:42:17,820 INFO App waiting for hub to connect
+2024-04-26 14:42:17,826 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:42:17,826 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:42:17,828 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:42:17,835 INFO comm.HubClient CONNECTING: , 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:42:17,835 DEBUG comm.SerialConnection RECV: , 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:42:17,835 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:42:17,835 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:42:17,836 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:42:17,840 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:42:17,841 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:42:17,841 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 982], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:42:17,844 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:42:17,891 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:42:17,893 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.358, 60, true]}
+2024-04-26 14:42:17,939 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:42:18,020 DEBUG comm.SerialConnection SEND: {"m": "start_write_program", "p": {"slotid": 0, "size": 212, "meta": {"created": 1714135337820, "modified": 1714135337820, "name": "cHlicmlja3NkZXZfdGVzdC5weQ==", "type": "python", "project_id": "2osEdoAmTPK7"}, "filename": "__init__.py"}, "i": "Vv9t"}
+2024-04-26 14:42:18,252 DEBUG comm.SerialConnection SEND: {"m": "write_package", "p": {"data": "ZnJvbSBweWJyaWNrcy5odWJzIGltcG9ydCAqCmZyb20gcHlicmlja3MucGFyYW1ldGVycyBpbXBvcnQgQ29sb3IKZnJvbSBweWJyaWNrcy50b29scyBpbXBvcnQgd2FpdAoKIyBJbml0aWFsaXplIHRoZSBodWIKaHViID0gSW52ZW50b3JIdWIoKQoKIyBLZWVwIGJsaW5raW5nIHJlZCBvbiBhbmQgb2ZmLgpodWIubGlnaHQuYmxpbmsoQ29sb3IuQkxVRSwgWzUwMCwgNTAwXSk=", "transferid": "34575"}, "i": "0RK0"}
+2024-04-26 14:42:25,253 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:42:25,255 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:42:25,255 INFO App waiting for hub to connect
+2024-04-26 14:42:25,262 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:42:25,262 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:42:25,264 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:42:25,271 INFO comm.HubClient CONNECTING: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:42:25,271 DEBUG comm.SerialConnection RECV: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:42:25,271 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:42:25,271 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 985], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:42:25,271 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 14, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:42:25,272 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:42:25,281 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:42:25,282 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 985], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:42:25,284 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [6, 17, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:42:25,332 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 984], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:42:25,380 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:42:25,428 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 18, 984], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:42:25,456 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "KnwF"}
+2024-04-26 14:42:25,558 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 0}, "i": "ywhY"}
+2024-04-26 14:42:25,589 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:43:23,260 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:43:23,262 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:43:23,262 INFO App waiting for hub to connect
+2024-04-26 14:43:23,268 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:43:23,268 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:43:23,269 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:43:23,276 INFO comm.HubClient CONNECTING: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 985], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:43:23,276 DEBUG comm.SerialConnection RECV: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 985], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:43:23,276 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:43:23,276 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:23,277 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:23,284 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:23,285 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.358, 60, true]}
+2024-04-26 14:43:23,285 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 15, 982], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:43:23,285 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 15, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:23,287 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:23,335 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:23,382 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:23,463 DEBUG comm.SerialConnection SEND: {"m": "remove_project", "p": {"slotid": 0}, "i": "kZLv"}
+2024-04-26 14:43:47,546 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:43:47,548 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:43:47,548 INFO App Uploading file: pybricksdev_test.py
+2024-04-26 14:43:47,548 INFO App waiting for hub to connect
+2024-04-26 14:43:47,554 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:43:47,554 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:43:47,555 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:43:47,559 INFO comm.HubClient CONNECTING: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 17, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:47,559 DEBUG comm.SerialConnection RECV: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 17, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:47,559 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:43:47,559 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:47,559 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.361, 60, true]}
+2024-04-26 14:43:47,559 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:47,560 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:43:47,560 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 982], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:43:47,560 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:47,561 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 981], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:43:47,607 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:43:47,656 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 14, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:43:47,749 DEBUG comm.SerialConnection SEND: {"m": "start_write_program", "p": {"slotid": 0, "size": 226, "meta": {"created": 1714135427548, "modified": 1714135427548, "name": "cHlicmlja3NkZXZfdGVzdC5weQ==", "type": "python", "project_id": "ESoppULDWFCt"}, "filename": "__init__.py"}, "i": "f6nB"}
+2024-04-26 14:43:47,991 DEBUG comm.SerialConnection SEND: {"m": "write_package", "p": {"data": "ZnJvbSBweWJyaWNrcy5odWJzIGltcG9ydCAqCmZyb20gcHlicmlja3MucGFyYW1ldGVycyBpbXBvcnQgQ29sb3IKZnJvbSBweWJyaWNrcy50b29scyBpbXBvcnQgd2FpdAoKIyBJbml0aWFsaXplIHRoZSBodWIKaHViID0gSW52ZW50b3JIdWIoKQoKIyBLZWVwIGJsaW5raW5nIHJlZCBvbiBhbmQgb2ZmLgpodWIubGlnaHQub24oQ29sb3IuQkxVRSkKCndhaXQoMjAwMCkKCmh1Yi5saWdodC5vZmYoKQ==", "transferid": "46748"}, "i": "OKu4"}
+2024-04-26 14:43:58,580 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:43:58,582 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:43:58,582 INFO App waiting for hub to connect
+2024-04-26 14:43:58,588 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:43:58,588 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:43:58,589 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:43:58,597 INFO comm.HubClient CONNECTING: 0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:43:58,598 DEBUG comm.SerialConnection RECV: 0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:43:58,598 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:43:58,598 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:43:58,630 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:43:58,630 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:43:58,630 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 18, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:43:58,631 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:43:58,632 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:43:58,680 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:43:58,728 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 985], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:43:58,776 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 16, 985], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:43:58,783 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "e60H"}
+2024-04-26 14:43:58,880 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 0}, "i": "bIMh"}
+2024-04-26 14:43:58,904 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:44:08,342 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:44:08,344 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:44:08,344 INFO App waiting for hub to connect
+2024-04-26 14:44:08,351 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:44:08,351 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:44:08,353 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:44:08,355 INFO comm.HubClient CONNECTING: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:44:08,355 DEBUG comm.SerialConnection RECV: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:44:08,355 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:44:08,355 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 985], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:44:08,355 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:44:08,355 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:44:08,356 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:44:08,357 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 981], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:44:08,359 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:44:08,405 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:44:08,454 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:44:08,455 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.361, 60, true]}
+2024-04-26 14:44:08,545 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "SMYN"}
+2024-04-26 14:44:49,332 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:44:49,334 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:44:49,334 INFO App waiting for hub to connect
+2024-04-26 14:44:49,340 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:44:49,340 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:44:49,341 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:44:49,348 INFO comm.HubClient CONNECTING: 0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:49,349 DEBUG comm.SerialConnection RECV: 0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:49,349 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:44:49,349 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 982], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:44:49,349 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:49,350 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 18, 983], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:44:49,350 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:49,351 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:44:49,351 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:49,400 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:49,447 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:49,495 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:49,535 DEBUG comm.SerialConnection SEND: {"m": "program_terminate", "p": {}, "i": "cbrS"}
+2024-04-26 14:44:53,574 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:44:53,577 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:44:53,577 INFO App waiting for hub to connect
+2024-04-26 14:44:53,583 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:44:53,583 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:44:53,584 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:44:53,591 INFO comm.HubClient CONNECTING: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:53,592 DEBUG comm.SerialConnection RECV: ]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:53,592 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:44:53,592 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 18, 984], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:44:53,621 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:53,621 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:53,622 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:44:53,622 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:53,622 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.361, 60, true]}
+2024-04-26 14:44:53,624 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:53,672 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:44:53,720 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 982], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:44:53,777 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "Umyt"}
+2024-04-26 14:44:53,879 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 0}, "i": "p8Js"}
+2024-04-26 14:44:53,901 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:44:59,066 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:44:59,068 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:44:59,069 INFO App waiting for hub to connect
+2024-04-26 14:44:59,075 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:44:59,075 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:44:59,076 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:44:59,083 INFO comm.HubClient CONNECTING: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:59,083 DEBUG comm.SerialConnection RECV: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:59,083 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:44:59,083 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:44:59,084 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:59,100 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:59,101 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 15, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:59,101 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 983], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:44:59,103 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 14, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:59,104 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.361, 60, true]}
+2024-04-26 14:44:59,151 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:44:59,199 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:44:59,269 DEBUG comm.SerialConnection SEND: {"m": "program_terminate", "p": {}, "i": "odsc"}
+2024-04-26 14:45:22,973 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:45:22,976 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:45:22,976 INFO App Uploading file: pybricksdev_test.py
+2024-04-26 14:45:22,976 INFO App waiting for hub to connect
+2024-04-26 14:45:22,983 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:45:22,983 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:45:22,984 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:45:22,991 INFO comm.HubClient CONNECTING: -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:22,991 DEBUG comm.SerialConnection RECV:  -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:22,991 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:45:22,991 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:22,991 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:22,991 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:22,991 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 982], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:45:22,992 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 18, 982], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:45:23,008 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 985], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:45:23,056 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [72, 1, 0], "", 0]}
+2024-04-26 14:45:23,104 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:23,106 DEBUG comm.SerialConnection RECV: {"m":2,"p":[7.363, 60, true]}
+2024-04-26 14:45:23,176 DEBUG comm.SerialConnection SEND: {"m": "start_write_program", "p": {"slotid": 0, "size": 197, "meta": {"created": 1714135522976, "modified": 1714135522976, "name": "cHlicmlja3NkZXZfdGVzdC5weQ==", "type": "python", "project_id": "1UJKh5B9niyq"}, "filename": "__init__.py"}, "i": "uTWW"}
+2024-04-26 14:45:23,464 DEBUG comm.SerialConnection SEND: {"m": "write_package", "p": {"data": "ZnJvbSBweWJyaWNrcy5odWJzIGltcG9ydCAqCmZyb20gcHlicmlja3MucGFyYW1ldGVycyBpbXBvcnQgQ29sb3IKZnJvbSBweWJyaWNrcy50b29scyBpbXBvcnQgd2FpdAoKIyBJbml0aWFsaXplIHRoZSBodWIKaHViID0gSW52ZW50b3JIdWIoKQoKIyBLZWVwIGJsaW5raW5nIHJlZCBvbiBhbmQgb2ZmLgpodWIubGlnaHQub24oQ29sb3IuQkxVRSk=", "transferid": "22323"}, "i": "0qhy"}
+2024-04-26 14:45:31,759 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:45:31,761 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:45:31,761 INFO App waiting for hub to connect
+2024-04-26 14:45:31,768 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:45:31,768 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:45:31,769 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:45:31,777 INFO comm.HubClient CONNECTING: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 985], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:31,777 DEBUG comm.SerialConnection RECV:  0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 985], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:31,806 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:45:31,806 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:31,806 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:31,806 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:31,806 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:31,806 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [7, 16, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:31,809 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [6, 17, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:31,857 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [6, 16, 982], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:31,904 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 983], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:31,952 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 984], [0, 0, 0], [72, 0, 0], "", 0]}
+2024-04-26 14:45:31,962 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "r9we"}
+2024-04-26 14:45:48,907 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:45:48,910 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:45:48,910 INFO App waiting for hub to connect
+2024-04-26 14:45:48,916 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:45:48,916 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:45:48,918 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:45:48,925 INFO comm.HubClient CONNECTING: 0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:45:48,926 DEBUG comm.SerialConnection RECV: 0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:45:48,926 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:45:48,926 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 982], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:45:48,942 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:45:48,942 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:45:48,943 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 18, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:45:48,943 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 982], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:45:48,945 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:45:48,993 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:45:49,042 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:45:49,089 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:45:49,111 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "AWW2"}
+2024-04-26 14:45:49,212 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 0}, "i": "_0WE"}
+2024-04-26 14:45:49,233 INFO data.HubMonitor Program ID None changed run state to False
+2024-04-26 14:48:10,565 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:48:10,568 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:48:10,568 INFO App waiting for hub to connect
+2024-04-26 14:48:10,574 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:48:10,575 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:48:10,575 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:48:10,579 INFO comm.SerialConnection end monitoring loop
+2024-04-26 14:48:10,768 INFO App waiting for hub to connect
+2024-04-26 14:48:10,969 INFO App waiting for hub to connect
+2024-04-26 14:48:11,170 INFO App waiting for hub to connect
+2024-04-26 14:48:11,370 INFO App waiting for hub to connect
+2024-04-26 14:48:11,571 INFO App waiting for hub to connect
+2024-04-26 14:48:11,772 INFO App waiting for hub to connect
+2024-04-26 14:48:11,973 INFO App waiting for hub to connect
+2024-04-26 14:48:12,174 INFO App waiting for hub to connect
+2024-04-26 14:48:12,374 INFO App waiting for hub to connect
+2024-04-26 14:48:12,575 INFO App waiting for hub to connect
+2024-04-26 14:48:12,776 INFO App waiting for hub to connect
+2024-04-26 14:48:12,977 INFO App waiting for hub to connect
+2024-04-26 14:48:13,177 INFO App waiting for hub to connect
+2024-04-26 14:48:13,378 INFO App waiting for hub to connect
+2024-04-26 14:48:13,579 INFO App waiting for hub to connect
+2024-04-26 14:48:13,780 INFO App waiting for hub to connect
+2024-04-26 14:48:13,981 INFO App waiting for hub to connect
+2024-04-26 14:48:14,181 INFO App waiting for hub to connect
+2024-04-26 14:48:14,382 INFO App waiting for hub to connect
+2024-04-26 14:48:14,583 INFO App waiting for hub to connect
+2024-04-26 14:48:14,784 INFO App waiting for hub to connect
+2024-04-26 14:48:14,984 INFO App waiting for hub to connect
+2024-04-26 14:48:15,185 INFO App waiting for hub to connect
+2024-04-26 14:48:15,386 INFO App waiting for hub to connect
+2024-04-26 14:48:15,586 INFO App waiting for hub to connect
+2024-04-26 14:48:15,787 INFO App waiting for hub to connect
+2024-04-26 14:48:15,988 INFO App waiting for hub to connect
+2024-04-26 14:48:16,189 INFO App waiting for hub to connect
+2024-04-26 14:48:16,389 INFO App waiting for hub to connect
+2024-04-26 14:48:16,590 INFO App waiting for hub to connect
+2024-04-26 14:48:16,790 INFO App waiting for hub to connect
+2024-04-26 14:48:16,991 INFO App waiting for hub to connect
+2024-04-26 14:48:17,191 INFO App waiting for hub to connect
+2024-04-26 14:48:17,392 INFO App waiting for hub to connect
+2024-04-26 14:48:17,593 INFO App waiting for hub to connect
+2024-04-26 14:48:17,793 INFO App waiting for hub to connect
+2024-04-26 14:48:17,994 INFO App waiting for hub to connect
+2024-04-26 14:48:18,194 INFO App waiting for hub to connect
+2024-04-26 14:48:18,395 INFO App waiting for hub to connect
+2024-04-26 14:48:18,595 INFO App waiting for hub to connect
+2024-04-26 14:48:18,795 INFO App waiting for hub to connect
+2024-04-26 14:48:18,996 INFO App waiting for hub to connect
+2024-04-26 14:48:19,197 INFO App waiting for hub to connect
+2024-04-26 14:48:19,397 INFO App waiting for hub to connect
+2024-04-26 14:48:19,598 INFO App waiting for hub to connect
+2024-04-26 14:48:19,799 INFO App waiting for hub to connect
+2024-04-26 14:48:19,999 INFO App waiting for hub to connect
+2024-04-26 14:48:20,199 INFO App waiting for hub to connect
+2024-04-26 14:48:20,400 INFO App waiting for hub to connect
+2024-04-26 14:48:20,601 INFO App waiting for hub to connect
+2024-04-26 14:48:20,801 INFO App waiting for hub to connect
+2024-04-26 14:48:21,002 INFO App waiting for hub to connect
+2024-04-26 14:48:21,203 INFO App waiting for hub to connect
+2024-04-26 14:48:21,403 INFO App waiting for hub to connect
+2024-04-26 14:48:21,604 INFO App waiting for hub to connect
+2024-04-26 14:48:21,804 INFO App waiting for hub to connect
+2024-04-26 14:48:22,005 INFO App waiting for hub to connect
+2024-04-26 14:48:22,205 INFO App waiting for hub to connect
+2024-04-26 14:48:22,406 INFO App waiting for hub to connect
+2024-04-26 14:48:22,606 INFO App waiting for hub to connect
+2024-04-26 14:48:22,807 INFO App waiting for hub to connect
+2024-04-26 14:48:23,008 INFO App waiting for hub to connect
+2024-04-26 14:48:23,209 INFO App waiting for hub to connect
+2024-04-26 14:48:23,410 INFO App waiting for hub to connect
+2024-04-26 14:48:23,611 INFO App waiting for hub to connect
+2024-04-26 14:48:23,812 INFO App waiting for hub to connect
+2024-04-26 14:48:24,012 INFO App waiting for hub to connect
+2024-04-26 14:48:24,213 INFO App waiting for hub to connect
+2024-04-26 14:48:24,413 INFO App waiting for hub to connect
+2024-04-26 14:48:24,614 INFO App waiting for hub to connect
+2024-04-26 14:48:24,814 INFO App waiting for hub to connect
+2024-04-26 14:48:25,014 INFO App waiting for hub to connect
+2024-04-26 14:48:25,215 INFO App waiting for hub to connect
+2024-04-26 14:49:00,325 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:49:00,328 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:49:00,328 INFO App waiting for hub to connect
+2024-04-26 14:49:00,334 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:49:00,334 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:49:00,336 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:49:00,357 INFO comm.SerialConnection end monitoring loop
+2024-04-26 14:49:00,528 INFO App waiting for hub to connect
+2024-04-26 14:49:00,729 INFO App waiting for hub to connect
+2024-04-26 14:49:00,929 INFO App waiting for hub to connect
+2024-04-26 14:49:01,130 INFO App waiting for hub to connect
+2024-04-26 14:49:01,331 INFO App waiting for hub to connect
+2024-04-26 14:49:01,531 INFO App waiting for hub to connect
+2024-04-26 14:49:01,732 INFO App waiting for hub to connect
+2024-04-26 14:49:01,933 INFO App waiting for hub to connect
+2024-04-26 14:49:02,133 INFO App waiting for hub to connect
+2024-04-26 14:49:02,334 INFO App waiting for hub to connect
+2024-04-26 14:49:02,534 INFO App waiting for hub to connect
+2024-04-26 14:49:02,735 INFO App waiting for hub to connect
+2024-04-26 14:49:02,936 INFO App waiting for hub to connect
+2024-04-26 14:49:03,137 INFO App waiting for hub to connect
+2024-04-26 14:49:03,338 INFO App waiting for hub to connect
+2024-04-26 14:49:03,539 INFO App waiting for hub to connect
+2024-04-26 14:49:03,740 INFO App waiting for hub to connect
+2024-04-26 14:49:03,941 INFO App waiting for hub to connect
+2024-04-26 14:49:04,142 INFO App waiting for hub to connect
+2024-04-26 14:49:04,342 INFO App waiting for hub to connect
+2024-04-26 14:49:04,543 INFO App waiting for hub to connect
+2024-04-26 14:49:04,743 INFO App waiting for hub to connect
+2024-04-26 14:49:04,944 INFO App waiting for hub to connect
+2024-04-26 14:49:05,145 INFO App waiting for hub to connect
+2024-04-26 14:49:05,346 INFO App waiting for hub to connect
+2024-04-26 14:49:05,547 INFO App waiting for hub to connect
+2024-04-26 14:49:05,747 INFO App waiting for hub to connect
+2024-04-26 14:49:05,948 INFO App waiting for hub to connect
+2024-04-26 14:49:06,149 INFO App waiting for hub to connect
+2024-04-26 14:49:06,350 INFO App waiting for hub to connect
+2024-04-26 14:49:06,551 INFO App waiting for hub to connect
+2024-04-26 14:49:06,752 INFO App waiting for hub to connect
+2024-04-26 14:49:06,952 INFO App waiting for hub to connect
+2024-04-26 14:49:07,153 INFO App waiting for hub to connect
+2024-04-26 14:49:07,354 INFO App waiting for hub to connect
+2024-04-26 14:49:07,555 INFO App waiting for hub to connect
+2024-04-26 14:49:07,756 INFO App waiting for hub to connect
+2024-04-26 14:52:08,316 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:52:08,318 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:52:08,318 INFO App waiting for hub to connect
+2024-04-26 14:52:08,325 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:52:08,325 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:52:08,326 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:52:08,334 INFO comm.HubClient CONNECTING: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:08,334 DEBUG comm.SerialConnection RECV: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:08,334 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:52:08,334 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 981], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:52:08,334 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:08,334 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:08,334 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:08,334 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 982], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:52:08,337 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:52:08,383 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:08,432 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:08,479 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:08,519 DEBUG comm.SerialConnection SEND: {"m": "remove_project", "p": {"slotid": 0}, "i": "RX1c"}
+2024-04-26 14:52:11,086 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:52:11,089 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:52:11,089 INFO App waiting for hub to connect
+2024-04-26 14:52:11,095 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:52:11,095 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:52:11,096 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:52:11,101 INFO comm.HubClient CONNECTING: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:11,102 DEBUG comm.SerialConnection RECV:  0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:11,102 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:52:11,102 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:11,102 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:11,102 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 982], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:52:11,102 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:11,102 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:11,105 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:11,151 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 17, 982], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:52:11,200 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 981], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:52:11,248 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:52:11,290 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "10Me"}
+2024-04-26 14:55:46,249 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:55:46,252 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:55:46,252 INFO App Uploading file: pybricksdev_test.py
+2024-04-26 14:55:46,252 INFO App waiting for hub to connect
+2024-04-26 14:55:46,257 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:55:46,258 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:55:46,259 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:55:46,266 INFO comm.HubClient CONNECTING: 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:46,266 DEBUG comm.SerialConnection RECV:  0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 15, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:46,266 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:55:46,266 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 984], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:55:46,266 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 15, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:46,266 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 984], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:46,267 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:46,295 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 981], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:46,298 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [11, 15, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:46,345 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:55:46,393 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 981], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:55:46,442 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 981], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:46,452 DEBUG comm.SerialConnection SEND: {"m": "start_write_program", "p": {"slotid": 0, "size": 371, "meta": {"created": 1714136146252, "modified": 1714136146252, "name": "cHlicmlja3NkZXZfdGVzdC5weQ==", "type": "python", "project_id": "AzcwGtVTzG5N"}, "filename": "__init__.py"}, "i": "Kn7a"}
+2024-04-26 14:55:46,678 DEBUG comm.SerialConnection SEND: {"m": "write_package", "p": {"data": "ZnJvbSBweWJyaWNrcy5ldjNkZXZpY2VzIGltcG9ydCBNb3Rvcgpmcm9tIHB5YnJpY2tzLnBhcmFtZXRlcnMgaW1wb3J0IFBvcnQKZnJvbSBweWJyaWNrcy50b29scyBpbXBvcnQgd2FpdAoKIyBJbml0aWFsaXplIGEgbW90b3IgYXQgUG9ydCBBCmV4YW1wbGVfbW90b3IgPSBNb3RvcihQb3J0LkEpCgojIE1ha2UgdGhlIG1vdG9yIHJ1biBjbG9ja3dpc2UgYXQgMzAgZGVncmVlcyBwZXIgc2Vjb25kCmV4YW1wbGVfbW90b3IucnVuKDMwKQoKIyBXYWl0IGZvciB0aHJlZSBzZWNvbmRzCndhaXQoMzAwMCkKCiMgTWFrZSB0aGUgbW90b3IgcnVuIGNvdW50ZXJjbG9ja3dpc2UgYXQgMzAgZGVncmVlcyBwZXIgc2Vjb25kCmV4YW1wbGVfbW90b3IucnVuKC0zMCk=", "transferid": "56115"}, "i": "fEJp"}
+2024-04-26 14:55:53,887 INFO comm.ConnectionFactory connecting to hub using serial device: auto
+2024-04-26 14:55:53,889 INFO comm.ConnectionMonitor Starting USB autoconnect detection loop
+2024-04-26 14:55:53,890 INFO App waiting for hub to connect
+2024-04-26 14:55:53,896 INFO comm.HubClient Connecting to hub using /dev/ttyACM0
+2024-04-26 14:55:53,896 INFO root Connection state change ConnectionState.DISCONNECTED --> ConnectionState.CONNECTING
+2024-04-26 14:55:53,897 INFO comm.SerialConnection begin monitoring loop on device /dev/ttyACM0
+2024-04-26 14:55:53,904 INFO comm.HubClient CONNECTING: , -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:53,904 DEBUG comm.SerialConnection RECV: , -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:53,905 INFO root Connection state change ConnectionState.CONNECTING --> ConnectionState.TELEMETRY
+2024-04-26 14:55:53,905 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 17, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:53,911 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:53,911 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 981], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:53,912 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:53,912 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [8, 16, 982], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:53,914 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 18, 982], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:55:53,962 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 18, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:55:54,010 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, -1, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [9, 17, 983], [0, 0, 0], [71, 1, 0], "", 0]}
+2024-04-26 14:55:54,058 DEBUG comm.SerialConnection RECV: {"m":0,"p":[[46, [0, 1, 0, 0]], [46, [0, 1, 3, 0]], [46, [0, 0, -1, 0]], [46, [0, 0, -5, 0]], [46, [0, 3, 1, 0]], [46, [0, 0, -2, 0]], [10, 16, 983], [0, 0, 0], [71, 0, 0], "", 0]}
+2024-04-26 14:55:54,090 DEBUG comm.SerialConnection SEND: {"m": "get_storage_status", "p": {}, "i": "dgJO"}
+2024-04-26 14:55:54,187 DEBUG comm.SerialConnection SEND: {"m": "program_execute", "p": {"slotid": 0}, "i": "TzaT"}
+2024-04-26 14:55:54,217 INFO data.HubMonitor Program ID None changed run state to False
