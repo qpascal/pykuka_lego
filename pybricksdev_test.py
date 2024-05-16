@@ -1,18 +1,15 @@
 from pybricks.ev3devices import Motor
-from pybricks.parameters import Port,Color
+from pybricks.parameters import Port
 from pybricks.tools import wait
 
-# Initialize a motor at port A
+# Initialize a motor at Port A
 example_motor = Motor(Port.A)
 
-# Make the motor run clockwise at 45 degrees per second
+# Make the motor run clockwise at 30 degrees per second
 example_motor.run(30)
 
-# Wait for 2 seconds
-wait(2000)
+# Wait for three seconds
+wait(3000)
 
-# Make the motor run counterclockwise at 45 degree per second
-example_motor.run(-45)
-
-# Stop the motor
-example_motor.brake()
+# Make the motor run counterclockwise at 30 degrees per second
+example_motor.run(-30)
