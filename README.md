@@ -141,14 +141,12 @@ After all packages are confirmed installed you may need to add `export PATH="$HO
 - [Project homepage](https://github.com/smr99/lego-hub-tk)
 - [Repository](https://github.com/smr99/lego-hub-tk)
 - [Issue tracker](https://github.com/smr99/lego-hub-tk/issues)
-- Related LEGO hub projects:
-  - [Spike Tools](https://github.com/nutki/spike-tools)
-  - [Spike Prime info and micropython decompiler](https://github.com/gpdaniels/spike-prime)
-  - [Spike Prime Extension for VS Code](https://github.com/sanjayseshan/spikeprime-vscode)
-  - [Pybricks](https://pybricks.com/)
-  - [Lego Spike Python Coding Tutorials](https://damom73.github.io/lego-spike-tutorials/index.html)
-- Related MicroPython projects:
-  - [rshell (Remote MicroPython Shell)](https://github.com/dhylands/rshell)
+- [Spike Tools](https://github.com/nutki/spike-tools)
+- [Spike Prime info and micropython decompiler](https://github.com/gpdaniels/spike-prime)
+- [Spike Prime Extension for VS Code](https://github.com/sanjayseshan/spikeprime-vscode)
+- [Pybricks](https://pybricks.com/)
+- [Lego Spike Python Coding Tutorials](https://damom73.github.io/lego-spike-tutorials/index.html)
+- [rshell (Remote MicroPython Shell)](https://github.com/dhylands/rshell)
 
 ### Acknowledgements
 
