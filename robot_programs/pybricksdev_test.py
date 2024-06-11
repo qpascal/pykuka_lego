@@ -10,10 +10,10 @@ hub = InventorHub()
 example_motor = Motor(Port.A,Direction.COUNTERCLOCKWISE)
 
 # Make the motor run clockwise at 30 degrees per second
-example_motor.run(-60)
+example_motor.run(-36)
 
 # Wait for three seconds
-wait(3000)
+wait(40000)
 
 # Make the motor run counterclockwise at 30 degrees per second
 example_motor.stop()
