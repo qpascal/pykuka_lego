@@ -1,1 +1,0 @@
-# This file takes the robot script and converts it into understandable methods for the program

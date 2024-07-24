@@ -1,1 +1,0 @@
-# This file makes sure the connected Hub has the proper firmware

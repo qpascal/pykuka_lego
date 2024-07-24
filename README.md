@@ -29,6 +29,14 @@ sudo chmod 666 /dev/ttyAMA0
 
 ## Connection & Piloting using lego-hub-tk
 
+#### Gears & speeds of motors
+- Motor A = Axis 1 (Z = 13600°/revolution, [-180;180])
+- Motor B = Axis 5 (Z = 9500°/revolution, [-90;90])
+- Motor C
+- Motor D
+- Motor E
+- Motor F
+
 #### Python Packages
 
 Install pre-requisite Python packages.
